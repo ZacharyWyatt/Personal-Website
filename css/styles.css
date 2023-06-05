@@ -152,6 +152,9 @@ button:active {
 .main-text.text-centered {
 	text-align: center;
 }
+.outside-link {
+	text-decoration-color: var(--accent-color);
+}
 .cta-div {
 	text-align: center;
 }

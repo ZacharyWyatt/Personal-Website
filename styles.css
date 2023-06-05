@@ -1,0 +1,150 @@
+:root {
+	--dark-grey: rgb(35, 35, 35);
+	--darker-grey: rgb(20, 20, 20);
+	--darker-grey-transparent: rgb(20, 20, 20, 0.5);
+	--light-grey: rgb(215,215,215);
+	--white: rgb(245, 245, 245);
+	--accent-color: rgb(53, 124, 56);
+	--accent-color-transparent: rgb(53, 124, 56, 0.8);
+}
+
+/* Styles used on multiple pages */
+body {
+	background-color: var(--light-grey);
+	font-family: 'Georgia'; 
+	margin: 0;
+}
+
+header {
+	width: 100%;
+}
+
+h1 {
+	font-size: 400%;
+	font-weight: normal;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+.header-div {
+	background-color: black;
+	color: white;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.header-image {
+	object-fit: cover;
+	opacity: 0.8;
+	width: 100%;
+	/*get rid of whitespace at the bottom of the div */
+		display: block; 
+}
+
+.header-text {
+	background-color: var(--accent-color-transparent);
+	box-shadow: 10px 10px 5px var(--darker-grey-transparent);
+	line-height: 175%;
+	position: absolute;
+		bottom: 10%;
+	text-align: center;
+	width: 100%;
+}
+
+.menu-div {
+	font-size: large;
+	width: 100%;
+}
+
+.menu-choice-selected {
+	background-color: var(--darker-grey);
+	border-bottom: 1rem solid var(--darker-grey);
+	border-radius: 0 0 1.2rem 1.2rem;
+	color: var(--white);
+	float: left;
+	text-align: center;
+	width: 33.33%;
+}
+
+.menu-choice {
+	background-color: var(--dark-grey);
+	color: var(--white);
+	float: left;
+	text-align: center;
+	width: 33.33%;
+}
+
+.menu-link:link, .menu-link:visited {
+	color: var(--white);
+	text-decoration: none;
+}
+
+.row {
+	color: var(--darker-grey);
+	font-size: 130%;
+	line-height: 200%;
+	margin: 7rem auto 0;
+	width: 95%;
+}
+
+.left-column {
+	background-color: var(--white);
+	margin-bottom: 3rem;
+	float: left;
+	width: 64.8%;
+}
+
+.right-column {
+	background-color: var(--white);
+	margin-bottom: 3rem;
+	float: right;
+	width: 32.4%;
+}
+
+.contact-info-div {
+	float: left;
+}
+
+.index-column-paragraph {
+	margin: 2rem;
+}
+
+.outside-link:link, .outside-link:visited   {
+	color: var(--dark-grey);
+}
+
+/* Styles used in projects.html only */
+.single-column {
+	background-color: var(--white);
+	display: inline-block;
+	margin: 0 12.5%;
+	text-align: center;
+	width: 75%;
+}
+
+.projects-column-paragraph {
+	margin: 0 2rem 2rem;
+}
+
+.projects-hr {
+	width: 80%;
+	text-align: center;"
+}
+
+/* Styles used in resume.html only */
+.resume-h3 {
+	margin-left: 2rem;
+	text-decoration: underline;
+	text-decoration-color: var(--accent-color);
+}
+
+.resume-column-paragraph {
+	margin-left: 2rem;
+}
+
+.resume-li {
+	margin-left: 2rem;
+}

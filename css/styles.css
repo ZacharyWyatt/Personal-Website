@@ -185,8 +185,14 @@ button:active {
 	padding: 6px 3px 0 3px;
 	text-align: center;
 }
+.footer-icon:hover {
+	background-color: var(--medium-grey);
+}
 .footer-href {
 	color: var(--white) !important;
+}
+.footer-href:hover{
+    color: var(--light-grey) !important;
 }
 /* END Footer */
 

@@ -8,8 +8,4 @@
     <loc>https://example.com/resume.html</loc>
 	<changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>https://example.com/resume-pdf.html</loc>
-	<changefreq>monthly</changefreq>
-  </url>
 </urlset>

@@ -1,147 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
+	<title>Resume | [Your Name]</title>
+
 	<link rel="canonical" href="https://example.com/resume.html"/>
-	<title>Projects - [Your Name]</title>
-	<link rel="stylesheet" href="styles.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="preload" as="image" type="image/jpeg" href="images/header.jpg" imagesrcset="images/header-400px.jpg 400w, wimages/header-800px.jpg 800w, images/header-1200px.jpg 1200w, images/header-1600px.jpg 1600w" imagesizes="100vw">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/brands.css">
+	<link rel="stylesheet" href="css/regular.css">
 	
+	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
-<div class="header-div">
-	<img class="header-image" src="images/header.jpg" srcset="images/header-400px.jpg 400w, wimages/header-800px.jpg 800w, images/header-1200px.jpg 1200w, images/header-1600px.jpg 1600w" sizes="100vw">
-	<div class="header-text">
-		<h1>[Your Name Here]</h1>
-		<h2><i>[Job Title Or Other Descriptor]</i></h1>
+	<div class="header-div">
+		<div class="header-icons-div">
+			<a class="header-icon first-icon" href="https://example.com/github-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+			<a class="header-icon second-icon" href="https://example.com/linkedin-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a class="header-icon third-icon" href="mailto:webcontact@example.com"><i class="fa-regular fa-envelope"></i></a>
+		</div>
+	
+		<h1>[Your Name]</h1>
+		<div class="subheader-div">
+			<div class="subheader-item">
+				<span>[Description 1]</span>
+			</div>
+			<div class="subheader-divider"></div>
+			<div class="subheader-item">
+				<span>[Description 2]</span>
+			</div>
+			<div class="subheader-divider"></div>
+			<div class="subheader-item">
+				<span>[Description 3]<span>
+			</div>
+		</div>
 	</div>
-</div>
-<div id="content-start" class="menu-div">
-	<a class="menu-link" href="/"><div class="menu-choice"><p>About Me</p></div></a>
-	<a class="menu-link" href="/projects.html"><div class="menu-choice"><p>Projects</p></div></a>
-	<a class="menu-link" href="/resume-pdf.html"><div class="menu-choice-selected"><P>Resume - Click to View as a PDF.</p></div></a>
+<div class="menu-div" id="content-start" >
+	<nav>
+	<a class="menu-link" href="/">
+		<div class="menu-item">
+			<p>About Me</p>
+		</div>
+	</a>
+	<div class="menu-divider"></div>
+	<a class="menu-link" href="/projects.html">
+		<div class="menu-item">
+			<p>Projects</p>
+		</div>
+	</a>
+	<div class="menu-divider hide-on-mobile"></div>
+		<div class="menu-item menu-selected hide-on-mobile">
+			<p>Resume</p>
+		</div>
+	</nav>
 </div>
 </header>
-<div class="row">
-	<div class="left-column">
-		<h3 class="resume-h3">[Experience Category]</h3>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Workplace]</b> (Jan. 1970 - Present)
-			<ul>
-				<li class="resume-li">[Example job experience]
-				<li class="resume-li">[Example job experience]
-				<li class="resume-li">[Example job experience]
-                <li class="resume-li">[Example job experience]
-			</ul>
-		</p>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Workplace]</b> (Jan. 1970 - Present)
-			<ul>
-				<li class="resume-li">[Example job experience]
-			</ul>
-		</p>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Workplace]</b> (Jan. 1970 - Present)
-			<ul>
-				<li class="resume-li">[Example job experience]
-				<li class="resume-li">[Example job experience]
-			</ul>
-		</p>
-	</div>
-	<div class="right-column">
-		<div class="contact-info-div">
-			<p class="index-column-paragraph">
-			[Contact Field]:
-			<br>[Contact Field]:
-			<br>[Contact Field]:
-			<br>[Contact Field]:
-			</p>
-		</div>
-		<div> 
-			<p class="index-column-paragraph">
-			[Contact Info]
-			<br>[Contact Info]
-			<br>[Contact Info]
-			<br>[Contact Info]
-			</p>
+	<object data="resume.pdf" type="application/pdf" style="margin-top: 1rem; margin-bottom: 2em; min-height: 100vh; width:100%">
+		<embed src="resume.pdf" type="application/pdf" style="margin-top: 1rem; margin-bottom: 2em; min-height: 100vh; width:100%"/>
+	</object>
+<footer>
+	<div class="footer-div">
+		<div class="footer-link">
+			<!-- If you use this template for your own site, please leave this link in the footer (: it would really help me out. -->
+			<a class="footer-icon" href="https://github.com/ZacharyWyatt/Personal-Website" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a><a class="footer-href" href="https://github.com/ZacharyWyatt/Personal-Website" target="_blank" rel="noopener noreferrer">Github Repo</a>
 		</div>
 	</div>
-	<div class="right-column">
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-	</div>
-	<div class="right-column">
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-	</div>
-	<div class="left-column">
-		<h3 class="resume-h3">[Education Category]</h3>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Education]</b> (Jan. 1970 - Dec. 1972)
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Education]</b> (Jan. 1970 - Dec. 1972)
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-	</div>
-	<div class="right-column">
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-	</div>
-	<div class="right-column">
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<ul>
-				<li class="resume-li">[Example Description]
-				<li class="resume-li">[Example Description]
-			</ul>
-		</p>
-	</div>
-	<div class="left-column">
-		<h3 class="resume-h3">[Additional Category]</h3>
-		<p class="resume-column-paragraph">
-			<b>[Example Title]</b>
-			<br>
-			<b>[Example Title]</b>
-		</p>
-	</div>
-</div>
+</footer>
 </body>
 </html>

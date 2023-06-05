@@ -347,6 +347,9 @@ button:active {
 	.main-text p {
 		margin: 1em 0.5em 1em 0.5em;
 	}
+	.main-text ul {
+		line-height: 200%;
+	}
 }
 /* END For screens below 650px */
 

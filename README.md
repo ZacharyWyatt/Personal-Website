@@ -15,7 +15,7 @@ You'll also likely want to:
 - Change the color scheme, or at least the accent color (the template uses green), in `css/styles.css`
 - Customize the header icons. They use [FontAwesome](https://fontawesome.com/docs/web/) icons
   - The template uses GitHub, LinkedIn, and Email icons. There are [plenty more](https://fontawesome.com/docs/web/add-icons/how-to#families-styles) available, though. I found the Brand icons especially useful
-  - Don't forget to update the URLs that the icons link to, too!
+  - Don't forget to update the URLs that the icons link to, and their `aria-labels` too!
 - Adjust the sitemap's `changefreq` tags ([reference](https://www.sitemaps.org/protocol.html)) depending on how often you expect the content to be updated
 - Adjust `robots.txt` to suit your needs
 

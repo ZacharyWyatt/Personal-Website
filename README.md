@@ -10,7 +10,8 @@ If you do choose to use this template, you'll almost certainly want to:
 - Replace `resume.pdf` with your own resume.
 
 You'll also likely want to:
-- Supply your own favicon and header image(s)
+- Supply your own favicon and header images
+  - And compress/optimize the header images with [this tool](https://tinyjpg.com/) 
 - Change the color scheme, or at least the accent color (the template uses green), in `css/styles.css`
 - Customize the header icons. They use [FontAwesome](https://fontawesome.com/docs/web/) icons
   - The template uses GitHub, LinkedIn, and Email icons. There are [plenty more](https://fontawesome.com/docs/web/add-icons/how-to#families-styles) available, though. I found the Brand icons especially useful

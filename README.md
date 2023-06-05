@@ -27,6 +27,9 @@ For example, here's what I have in my site's NGINX configuration:
     location ~* \.css$ {
         expires 30d;
     }
+    location ~* \.woff2$ {
+        expires 30d;
+    }
     location ~* \.ico$ {
         expires 30d;
     }
@@ -34,6 +37,9 @@ For example, here's what I have in my site's NGINX configuration:
         expires 30d;
     }
     location ~* \.jpeg$ {
+        expires 30d;
+    }
+    location ~* \.jpg$ {
         expires 30d;
     }
  ```

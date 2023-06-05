@@ -10,6 +10,9 @@
 html, body {
 	height: 100%;
 }
+header {
+	background-color: var(--accent-color);
+}
 body {
 	background-color: var(--light-grey);
 	font-family: 'Georgia'; 
